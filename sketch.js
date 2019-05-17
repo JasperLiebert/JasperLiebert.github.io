@@ -75,9 +75,9 @@ function draw() {
   }
   rect(355, 400, 90, 75);
   fill(0)
-  text(r, 100, 450);
-  text(g, 200, 450);
-  text(b, 300, 450);
+  text(int(r), 100, 450);
+  text(int(g), 200, 450);
+  text(int(b), 300, 450);
   textSize(20)
   textStyle(BOLD);
   text('Random', 400, 442)
