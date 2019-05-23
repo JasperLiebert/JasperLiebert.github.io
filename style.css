@@ -1,7 +1,8 @@
-html, body {
-  margin: 0;
-  padding: 0;
+img {
+  width: 200px;
 }
-canvas {
-  display: block;
-}
+body {
+  text-align: center;
+  font-family: BlinkMacSystemFont; 
+  background: rgb(58, 224, 202); 
+  color:rgb(37, 119, 108);}
