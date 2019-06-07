@@ -4,10 +4,9 @@ let diameter = screensize-(screensize/10);
 
 function setup() {
   createCanvas(screensize, screensize);
-  background(255);
   strokeWeight(linethickness)
   noStroke()
-  ellipse(width/2, height/2, diameter, diameter);
+  ellipse(width/2, height/2, diameter+100, diameter+100);
   stroke(0)
 
 }
