@@ -11,18 +11,18 @@ function setup() {
 	textSize(50);
 	
   input = createInput()
-  input.position(20, 20)
+  input.position(20, 70)
   
   button = createButton('Create New Word')
-  button.position(20, 40)
+  button.position(20, 90)
   button.mousePressed(newword);
 
   reset = createButton('Reset');
-  reset.position(20, 100);
+  reset.position(20, 150);
   reset.mousePressed(res);
 	
   jump = createButton('Jump');
-  jump.position(20, 80)
+  jump.position(20, 130)
   jump.mousePressed(wordJump);
   
 	textAlign('center');
