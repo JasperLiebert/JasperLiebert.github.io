@@ -4,5 +4,51 @@ img {
 body {
   text-align: center;
   font-family: BlinkMacSystemFont; 
-  background: rgb(58, 224, 202); 
-  color:rgb(37, 119, 108);}
+  background-image:url("blue.jpg"); 
+  color:rgb(37, 119, 108);
+  margin: 0;
+
+}
+
+h1{
+  color: rgb(7, 58, 51);
+  padding: 14px 16px;
+  background-color: rgb(58, 224, 202);
+}
+b {
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(199, 255, 248);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(37, 119, 108);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgb(199, 255, 248);
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(37, 119, 108);
+  color: rgb(199, 255, 248);
+}
+
+.active{
+  background-color: rgb(7, 58, 51);
+  color: rgb(199, 255, 248);
+}
